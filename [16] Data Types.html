@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="demo"></p>
+  <p id="demo1"></p>
+  <script>
+    let x = 16 + "Volvo";
+    document.getElementById("demo").innerHTML = x;
+
+    // Dynamic Steps
+    let y;         // Now x is undefined
+    y = 5;         // Now x is a Number
+    y = "John";    // Now x is a String
+    document.getElementById("demo1").innerHTML = y;
+  </script>
+</body>
+</html>
